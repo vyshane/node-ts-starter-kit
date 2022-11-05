@@ -1,0 +1,35 @@
+{
+  "name": "node-ts.starter-kit",
+  "version": "0.1.0",
+  "description": "An opinionated Node.js and TypeScript starter kit.",
+  "homepage": "https://github.com/vyshane/node-ts-starter-kit",
+  "bugs": "https://github.com/vyshane/node-ts-starter-kit/issues",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Vy-Shane Xie",
+    "email": "s@vyshane.com",
+    "url": "https://vyshane.com"
+  },
+
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/node18-strictest-esm": "^1.0.1",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "lint": "eslint --ext .js,.ts .",
+    "format": "prettier 'src/**/*.ts' --write"
+  }
+}
