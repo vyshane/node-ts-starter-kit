@@ -10,7 +10,15 @@
     "email": "s@vyshane.com",
     "url": "https://vyshane.com"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyshane/node-ts-starter-kit.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "lint": "eslint --ext .js,.ts .",
+    "format": "prettier 'src/**/*.ts' --write"
+  },
   "type": "module",
   "devDependencies": {
     "@tsconfig/node18-strictest-esm": "^1.0.1",
@@ -26,10 +34,5 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4"
-  },
-  "scripts": {
-    "dev": "tsc --watch",
-    "lint": "eslint --ext .js,.ts .",
-    "format": "prettier 'src/**/*.ts' --write"
   }
 }
